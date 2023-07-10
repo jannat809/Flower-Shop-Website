@@ -27,7 +27,7 @@
 }
 .banner-description{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 20px;
     font-style: normal;
@@ -97,7 +97,7 @@ background: rgba(71, 125, 17, 0.15);
 }
 .banner-description-2{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     margin-bottom: 20px;
     font-style: normal;
@@ -119,6 +119,35 @@ background: rgba(71, 125, 17, 0.15);
   
 
 }
+/* end section-2 */
 
+/* optional section start */
+.optional-container{
+    display: flex;
+    border-radius: 5px;
+    background: rgba(39, 39, 39, 0.05);
+    display:flex;
+   justify-content: center;
+    align-items:center;
+    width:900px;
+    margin: auto;
+    padding: auto;
+    padding-right: 30px;
+    margin-top: 100px;
+    gap: 30px;
 
-
+   
+}
+.optional-img{
+    width: 50px;
+    margin: 20px;
+    padding: 25px;
+    margin-top: 20px;
+}
+.optional-font{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
