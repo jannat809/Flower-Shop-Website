@@ -128,14 +128,14 @@ background: rgba(71, 125, 17, 0.15);
     border-radius: 5px;
     background: rgba(39, 39, 39, 0.05);
     display:flex;
-   justify-content: center;
+    justify-content:space-around;
     align-items:center;
     width:900px;
-    margin: auto;
-    padding: auto;
-    padding-right: 30px;
-    margin-top: 100px;
+    margin: 100px auto;
     gap: 30px;
+   position: relative;
+   left: 30px;
+    
 
    
 }
@@ -207,3 +207,67 @@ background: rgba(71, 125, 17, 0.15);
     gap: 30px;
     margin-top: 25px;
 }
+/* latest deal section start  */
+.latest-deal-container{
+   background-image: url(asset/Rectangle\ 9.png);
+   width: 900px;
+   height: 333px;
+   border-radius: 8px;
+   justify-content: center;
+   background-repeat: no-repeat;
+   margin: 100px auto;
+
+}
+.latest-deal-title{
+    text-align: center;
+    padding-top: 80px;
+}
+.latest-deal-description{
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+}
+.deal-holder{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.email{
+    color: black;
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-right: 20px;
+    padding-left: 80px;
+}
+.footer{
+    background: #111010;
+    width: 100%px;
+    height: 400px;
+   
+}
+.footer-title{
+   color: white;
+   text-align: center;
+   padding-top: 150px;
+   font-size: 30px;
+}
+.footer-flower-title{
+    color: #E55473;
+
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+
