@@ -167,6 +167,7 @@ background: rgba(71, 125, 17, 0.15);
     padding-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
+    padding-bottom: 30px;
     
 }
 .hot-deal-title{
@@ -183,7 +184,7 @@ background: rgba(71, 125, 17, 0.15);
 }
 .hot-deal-btn{
     width: 120px;
-    /* padding-left: 30px; */
+    padding: 0 auto;
 }
 /* Instagram part start from here  */
 .instagram-title{
