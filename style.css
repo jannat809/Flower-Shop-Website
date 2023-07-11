@@ -241,6 +241,27 @@ background: rgba(71, 125, 17, 0.15);
     margin-right: 20px;
     padding-left: 80px;
 }
+.blog{
+    background-color: #E554731A;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.blog-title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    text-decoration-line: underline;
+  
+}
+.blog-description{
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+/* footer section from here */
 .footer{
     background: #111010;
     width: 100%px;
