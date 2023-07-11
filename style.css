@@ -1,27 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Lato', sans-serif;
+}
 /* section-1 */
+
+
 .flower{
-    width: 300px;
+    display: block;
+    width: 500px;
+  
+}
+.banner-content{
+    width: 49%;
 }
 .banner-section{
     display: flex;
     background-color: #E554731A;
     justify-content: center;
     align-items: center;
-    gap: 90px;
-
+    margin: 0 auto;
+   
 
 }
 .banner-heading{
     color: #272727;
-    /* font-family: Lato; */
-    font-size: 55px;
-    font-weight: 700;
+    font-size: 80px;
     margin-bottom: 20px;
-    font-style: normal;
+    /* width: 708px; */
+    font-weight: 800;
+    margin-left: 30px;
+   
 
 
 }
@@ -30,7 +42,7 @@
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 20px;
-    font-style: normal;
+    margin-left: 30px;
 
 }
 .btn{
@@ -43,7 +55,7 @@
     width: 150px;
     height: 50px;
     border: none;
-    font-style: normal;
+    margin-left: 30px;
 
 }
 /* section-2 */
@@ -160,7 +172,7 @@ background: rgba(71, 125, 17, 0.15);
     width: 100%;
     margin-top:100px ;
     gap: 70px;
-    /* margin: auto; */
+    text-align: center;
 }
 .hot-deal-img{
     width: 200px;
